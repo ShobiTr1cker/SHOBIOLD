@@ -172,11 +172,11 @@ myid=uuid.uuid4().hex[:10].upper()
 
 try:
 
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrShobi-cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.mrAkash-cov', 'r').read()
 
 except:
 
-	kok=open('/data/data/com.termux/files/usr/bin/.mrShobi-cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.mrAkash-cov', 'w')
 
 	kok.write(myid+imt)
 
